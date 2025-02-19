@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  form {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form input[type="file"],
+  form input[type="text"] {
+    margin: 5px;
+  }
+  
+  .search-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #searchBox {
+    padding: 8px;
+    width: 60%;
+    font-size: 16px;
+  }
+  
+  #filesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .file-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: relative;
+    width: 220px;
+    text-align: center;
+  }
+  
+  .delete-btn {
+    background: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 5px;
+    border-radius: 4px;
+  }
+  
+  img, video {
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+    margin: 10px auto;
+  }
+  
+  .file-name {
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
